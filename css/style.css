@@ -173,7 +173,7 @@ height: 70px;
     padding-bottom: 15px;
 }
 
- /* Button card */
+ /* Inizio Button Card */
 
 .button-card{
     display: flex;
@@ -209,6 +209,8 @@ height: 70px;
     cursor: pointer;
     box-shadow: 2px 2px 8px#665858;
 }
+
+    /* Fine Button Card */
 
 .container-card > div > div > .oppure{
     display: inline-block;
@@ -342,6 +344,7 @@ height: 70px;
 
 .titolo-buisness{
     font-size: xx-large;
+    padding-top: 50px;
     padding-bottom: 30px;
 }
 
@@ -363,3 +366,117 @@ height: 70px;
 .buisness-card h3{
     padding-bottom: 15px;
 }
+
+.titolo-fine-business{
+    padding-top: 200px;
+}
+
+.titolo-fine-business > h2{
+    font-size: xxx-large;
+}
+
+.titolo-fine-business > a{
+    display: block;
+    margin-top: 50px;
+    font-size: larger;
+}
+
+    /* Fine Dropbox Buisness */
+
+    /* Inizio Designit */
+
+.container-designit{
+    display: flex;
+    padding-top: 50px;
+}
+
+.designit-card1{
+    width: calc(100% / 3);
+    aspect-ratio: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.designit-card2{
+    width: calc(100% / 3);
+    aspect-ratio: 1;
+    background-color: lightgray;
+    padding: 50px;
+}
+
+.designit-card2 h2{
+    font-size: 3rem;
+}
+
+.designit-card2 p{
+    padding-bottom: 30px;
+}
+
+.designit-card2 hr{
+    width: 15%;
+}
+
+.designit-card2 p,p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.designit-card3{
+    width: calc(100% / 3);
+    aspect-ratio: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-designit{
+    display: flex;
+    width: 50%;
+    aspect-ratio: 1;
+    align-items: center;
+}
+
+.logo-designit img{
+    width: 100%;
+}
+
+.designit-card1 > .logo-designit:nth-of-type(1){
+    background-color: #A2D39B;
+    color: white;
+}
+
+.designit-card1 > .logo-designit:nth-of-type(2){
+    background-color: #61082B;
+    color: white;
+}
+
+.designit-card1 > .logo-designit:nth-of-type(3){
+    background-color: #0093CE;
+    color: white;
+}
+
+.designit-card1 > .logo-designit:nth-of-type(4){
+    background-color: #FF1C1C;
+    color: white;
+}
+
+.designit-card3 > .logo-designit:nth-of-type(1){
+    background-color: #D5001F;
+    color: white;
+}
+
+.designit-card3 > .logo-designit:nth-of-type(2){
+    background-color: #B4D0E7;
+    color: white;
+}
+
+.designit-card3 > .logo-designit:nth-of-type(3){
+    background-color: #0D2481;
+    color: white;
+}
+
+.designit-card3 > .logo-designit:nth-of-type(4){
+    background-color: #FFD830;
+    color: white;
+}
+
+    /* Fine Designit */
