@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/*Header*/
+ /* Header */
 
 header{
 display: flex;
@@ -26,7 +26,7 @@ border: 1px solid black;
     padding: 15px;
 }
 
-/*Bottoni header right*/
+ /* Bottoni header right */
 
 .accedi{
     border: none;
@@ -51,7 +51,7 @@ border: 1px solid black;
     box-shadow: 2px 2px 8px#665858;
 }
 
-/*Container Jumbotron*/
+ /* Container Jumbotron */
 
 .container-jumbotron{
     height: 500px;
@@ -111,3 +111,194 @@ border: 1px solid black;
 .jumbo-img{
     width: 100%;
 }
+
+    /* Container Titolo */
+
+.container-titolo2{
+    padding-top: 100px;
+    margin: auto;
+    width: 1000px;
+}
+
+.container-titolo2 h2{
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+.container-titolo2 input{
+    margin-right: 10px;
+    padding-right: 15px;
+}
+
+.container-titolo2 label{
+    margin-right: 30px;
+}
+
+ /* Inizio Container card */
+
+.container-card{
+ display: flex;
+ gap: 30px;
+ padding-top: 40px;
+ width: 1000px;
+ margin: auto;
+}
+
+.container-card > div{
+    min-height: 400px;
+    min-width: calc((100% - 60px) / 3);
+    border: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.container-card > div > p{
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.container-card > div > div{
+    padding: 0px 20px;
+    padding-top: 25px;
+}
+
+.container-card > div > div > h3{
+    padding-bottom: 20px;
+}
+
+.container-card > div > div > .durata{
+    color: lightgray;
+    padding-bottom: 40px;
+}
+
+.container-card > div > div > .spazio{
+    padding-bottom: 15px;
+}
+
+ /* Button card */
+
+.button-card{
+    display: flex;
+    margin: auto;
+    font-size: large;
+    border: none;
+    background-color: #0057E5;
+    color: white;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.button-card:hover{
+    background-color: #679cf1;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px#665858;
+}
+
+.button-contattaci{
+    display: flex;
+    margin: auto;
+    font-size: large;
+    border: none;
+    background-color: #0057E5;
+    color: white;
+    margin-top: 30px;
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+.button-contattaci:hover{
+    background-color: #679cf1;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px#665858;
+}
+
+.container-card > div > div > .oppure{
+    display: inline-block;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.container-card > div > div > .piano{
+    display: block;
+    padding-top: 30px;
+}
+
+.fa-solid.fa-check{
+    color: #0057E5;
+    padding-right: 5px;
+}
+
+.container-card > div > div > .servizi{
+    padding: 15px;
+}
+
+.last-card{
+    margin: auto;
+    margin-top: 40px;
+    width: 1000px;
+    min-height: 200px;
+    border: 1px solid black;
+}
+
+.last-card-title{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+.last-card > div{
+    display: flex;
+}
+
+.last-card-left{
+    width: 70%;
+    padding: 10px;
+}
+
+.last-card-left > h3{
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.last-card-left > p{
+    padding-top: 40px;
+}
+
+.last-card-right{
+    width: 30%;
+}
+
+.last-card-right button{
+    display: flex;
+    margin: auto;
+    font-size: large;
+    border: none;
+    background-color: #0057E5;
+    color: white;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.last-card-right button:hover{
+    background-color: #679cf1;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px#665858;
+}
+
+     /* Fine Container card */
+
+ .container-partner{
+    margin: auto;
+    margin-top: 40px;
+    width: 1000px;
+    border: 1px solid black;
+ }
+
+ .container-partner-left{
+    width: ;
+ }
+
+ .container-partner-right{
+    
+ }
