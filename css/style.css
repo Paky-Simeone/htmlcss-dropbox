@@ -480,3 +480,43 @@ height: 70px;
 }
 
     /* Fine Designit */
+
+    /* Inizio Prova Gratuita */
+
+.gratis-section{
+    display: flex;
+    margin: auto;
+    background-color: #B4D0E7;
+    min-height: 300px;
+}
+
+.gratis-left{
+    width: 60%;
+    color: #61082B;
+    text-align: center;
+    padding-top: 100px;
+    font-size: x-large;
+}
+
+.gratis-right{
+    width: 40%;
+    text-align: center;
+    padding-top: 100px;
+    font-size: x-large;
+    padding-right: 220px;
+}
+
+.gratis-right button{
+    border: none;
+    padding: 20px;
+    font-size: large;
+}
+
+.gratis-right button:hover{
+    cursor: pointer;
+    text-shadow: 2px 2px 8px #665858;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+
+    /* Fine Prova Gratuita */
