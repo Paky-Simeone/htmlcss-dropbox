@@ -10,7 +10,6 @@ header{
 display: flex;
 justify-content: space-between;
 height: 70px;
-border: 1px solid black;
 }
 
 .header-left,
@@ -55,7 +54,6 @@ border: 1px solid black;
 
 .container-jumbotron{
     height: 500px;
-    border-bottom: 1px solid black;
     background-color: lightblue;
     margin: auto;
 }
@@ -289,16 +287,43 @@ border: 1px solid black;
      /* Fine Container card */
 
  .container-partner{
+    display: flex;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 100px;
+    min-height: 300px;
     width: 1000px;
-    border: 1px solid black;
  }
 
  .container-partner-left{
-    width: ;
+    width: 60%;
+ }
+
+ .container-partner-left img{
+    width: 100%;
  }
 
  .container-partner-right{
-    
+    width: 40%;
+    padding: 50px;
  }
+.container-partner-right > h2{
+    font-size: xxx-large;
+    padding-bottom: 30px;
+}
+
+ .container-partner-right > p{
+    padding-bottom: 30px;
+ }
+
+ .container-partner-right button{
+    border: 1px solid black;
+    background-color: lightgray;
+    padding: 10px;
+
+ }
+
+ .container-partner-right button:hover{
+    background-color: rgba(237, 244, 255, 0.952) ;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px#665858;
+}
