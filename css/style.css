@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+
+header{
+display: flex;
+justify-content: space-between;
+height: 70px;
+border: 1px solid black;
+}
+
+.header-left,
+.header-right{
+    padding: 15px;
+    display: flex;
+    min-width: 400px;
+  align-items:center;
+}
+
+.header-left *,
+.header-right *{
+    padding: 15px;
+}
+
+/*Bottoni header right*/
+
+.accedi{
+    border: none;
+    background-color: white;
+}
+
+.accedi:hover{
+    color: blue;
+    cursor: pointer;
+    text-shadow: 2px 2px 8px #665858;
+}
+
+.inizia{
+    border: none;
+    background-color: #0057E5;
+    color: white;
+}
+
+.inizia:hover{
+    background-color: #679cf1;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px#665858;
+}
