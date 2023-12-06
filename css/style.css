@@ -286,6 +286,8 @@ height: 70px;
 
      /* Fine Container card */
 
+     /* Inizio Container Partner */
+
  .container-partner{
     display: flex;
     margin: auto;
@@ -326,4 +328,38 @@ height: 70px;
     background-color: rgba(237, 244, 255, 0.952) ;
     cursor: pointer;
     box-shadow: 2px 2px 8px#665858;
+}
+
+    /* Fine Container Partner */
+
+    /* Inizio Dropbox Buisness */
+
+.buisness-section{
+    width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.titolo-buisness{
+    font-size: xx-large;
+    padding-bottom: 30px;
+}
+
+.container-buisness{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.buisness-card{
+    width: calc((100% - 40px) / 3);
+    min-height: 250px;
+}
+
+.buisness-card img{
+    width: 100%;
+}
+
+.buisness-card h3{
+    padding-bottom: 15px;
 }
