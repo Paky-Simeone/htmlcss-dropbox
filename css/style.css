@@ -416,7 +416,7 @@ height: 70px;
     width: 15%;
 }
 
-.designit-card2 p,p{
+.designit-p{
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -520,3 +520,71 @@ height: 70px;
 }
 
     /* Fine Prova Gratuita */
+
+    /* Inizio Domande Frequenti */
+
+.container-domande{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    padding-top: 50px;
+}
+.titolo-domande{
+    font-size: xx-large;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container-domande > .angle-down > p{
+    padding: 40px;
+   font-size: large;
+}
+
+ .angle-down{
+    position: relative;
+ }
+
+.angle-down i{
+    position: absolute;
+    top: calc(50% - 8px);
+    right: 35px;
+    
+ }
+
+    /* Fine Domande Frequenti  */
+
+    /* Inizio Footer Section */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-section{
+    display: flex;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.footer-section > div > ul{
+    list-style: none;
+}
+
+.footer-section > div > ul > li{
+    padding: 10px 0px;
+}
+
+footer > hr{
+    width: 15%;
+    margin-left: 280px;
+}
+
+footer > p{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width: 872px;
+    margin: auto;
+}
